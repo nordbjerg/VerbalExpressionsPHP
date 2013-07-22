@@ -40,7 +40,8 @@ class VEx {
 	 * @param bool $enable
 	 * @return VEx
 	 */
-	public function start($enable = true) {
+	public static function start($enable = true) {
+		$this = new static;
 		$this->prefixes = $enable ? '/' : '';
 
 		return $this;
