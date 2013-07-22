@@ -341,4 +341,9 @@ class VEx {
 		return preg_split($this->get(), $str);
 	}
 
+	public static function __callStatic($method, $parameters)
+	{
+	    return call_user_func_array(array(new static, $method), $parameters);
+	}
+
 }

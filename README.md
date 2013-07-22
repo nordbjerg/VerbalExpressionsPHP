@@ -8,8 +8,8 @@ Note: These examples are only examples. They may not work in all situations.
 
 **Match an URL address**
 
-```
-$regex = (new Vex)->start()
+```php
+$regex = Vex::start()
 	->then('http')
 	->maybe('s')
 	->then('://')
