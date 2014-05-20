@@ -1,0 +1,22 @@
+{
+    "name": "nordbjerg/verbal-expressions-php",
+    "description": "Regular expressions made easy",
+    "require-dev": {
+        "phpunit/phpunit": "dev-master"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Oliver Nordbjerg",
+            "email": "nordbjerg.oliver@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VerbalExpressions\\": "src/VerbalExpressions/"
+        }
+    },
+    "require": {
+
+    }
+}
