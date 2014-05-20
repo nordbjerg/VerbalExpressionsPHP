@@ -1,23 +1,8 @@
-# VerbalExpressionsPHP
+# Verbal Expressions
+
+[![Build Status](https://img.shields.io/travis/nordbjerg/verbal-expressions-php.svg)](https://travis-ci.org/nordbjerg/verbal-expressions-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/nordbjerg/verbal-expressions-php.svg)](https://packagist.org/packages/nordbjerg/verbal-expressions-php)
+[![Latest Version](https://img.shields.io/github/tag/nordbjerg/verbal-expressions-php.svg)](https://github.com/nordbjerg/verbal-expressions-php/releases)
+[![Dependency Status](https://www.versioneye.com/php/nordbjerg:verbal-expressions-php/badge.svg)](https://www.versioneye.com/php/nordbjerg:verbal-expressions-php)
 
 A PHP adaptation of https://github.com/jehna/VerbalExpressions
-
-## Examples
-
-Note: These examples are only examples. They may not work in all situations.
-
-**Match an URL address**
-
-```php
-$regex = Vex::start()
-	->then('http')
-	->maybe('s')
-	->then('://')
-	->maybe('www.')
-	->anythingBut(' ')
-	->withAnyCase()
-	->end()
-	->match('http://www.google.dk'); // bool (true)
-```
-
-The fun never stops!
