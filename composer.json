@@ -2,7 +2,7 @@
     "name": "nordbjerg/verbal-expressions-php",
     "description": "Regular expressions made easy",
     "require-dev": {
-        "phpunit/phpunit": "dev-master"
+        "phpunit/phpunit": "4.0.*"
     },
     "license": "MIT License",
     "authors": [
